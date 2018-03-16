@@ -2917,7 +2917,7 @@ input[type=month],
 input[type=time] {
     line-height: 42px;
     line-height: 2;
-    \9
+    /* \9 */
 }
 
 input[type=date].input-sm,
@@ -2926,7 +2926,7 @@ input[type=month].input-sm,
 input[type=time].input-sm {
     line-height: 30px;
     line-height: 1.5;
-    \9
+    /* \9 */
 }
 
 input[type=date].input-lg,
@@ -2935,7 +2935,7 @@ input[type=month].input-lg,
 input[type=time].input-lg {
     line-height: 46px;
     line-height: 1.33;
-    \9
+    /* \9 */
 }
 
 :root input[type=date],
@@ -7342,10 +7342,11 @@ html {
 }
 
 .splash-page {
-    background: url(https://static1.squarespace.com/static/5329d3aae4b0cc77fe832d04/t/53401124e4b0cc317002f993/1396707690715/laptop-coffee-phone-pad.jpg?format=1500w) 50% 50% no-repeat fixed;
+    background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/developer-background-616.png) 50% 50% no-repeat fixed;
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 .hero-image-slideshow {
     position: relative;
